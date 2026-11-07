@@ -13,7 +13,7 @@ validation set.
 from project_paths import RAW_TRAIN_DATASET, TOKENIZER_DIR
 
 from datasets import Dataset, load_from_disk
-from src.tokenization import BPETokenizer
+from src.data_pipeline.tokenization import BPETokenizer
 
 
 SAVE_PATH = TOKENIZER_DIR / "bpe_4000.json"

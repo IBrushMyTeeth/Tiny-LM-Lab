@@ -5,7 +5,7 @@ Run this script before training to download the Hugging Face TinyStories
 dataset and save subsets of its training and validation splits to the
 project's data directory.
 
-The script selects 100,000 training examples and 5,000 validation examples
+The script selects 120,000 training examples and 6,000 validation examples
 using a fixed random seed. The resulting subsets are saved locally and can
 be reused during training without downloading the dataset again.
 
@@ -31,8 +31,8 @@ CACHE_DIR = DATA_DIR / "cache"
 SEED = 42
 
 SPLITS = {
-    "train": 100_000,
-    "validation": 5_000,
+    "train": 120_000,
+    "validation": 6_000,
 }
 
 

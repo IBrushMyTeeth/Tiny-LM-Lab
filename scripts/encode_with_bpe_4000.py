@@ -30,7 +30,7 @@ from project_paths import (
     BPE_TOKENIZER_4000,
     PREPROCESSED_DATA,
 )
-from src.tokenization import BPETokenizer
+from src.data_pipeline.tokenization import BPETokenizer
 
 
 TRAIN_SAVE_PATH = PREPROCESSED_DATA / "train_bpe_4000.bin"
